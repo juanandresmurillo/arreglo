@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones del Programa de CampusLands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .column h2 {
+            text-align: center;
+            color: #333;
+        }
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .column ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .column ul li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Especificaciones del Programa de CampusLands</h1>
+    <div class="container">
+        <!-- Información de los Campers -->
+        <div class="column">
+            <h2>Información de los Campers</h2>
+            <ul>
+                <li># de identificación</li>
+                <li>Nombres</li>
+                <li>Apellidos</li>
+                <li>Dirección</li>
+                <li>Acudiente</li>
+                <li>Teléfonos de contacto (celular y fijo)</li>
+                <li>Estado (En proceso de ingreso, Inscrito, Aprobado, Cursando, Graduado, Expulsado, Retirado)</li>
+                <li>Riesgo</li>
+            </ul>
+        </div>
+
+        <!-- Rutas de Entrenamiento -->
+        <div class="column">
+            <h2>Rutas de Entrenamiento</h2>
+            <ul>
+                <li>Ruta NodeJS</li>
+                <li>Ruta Java</li>
+                <li>Ruta NetCore</li>
+            </ul>
+        </div>
+
+        <!-- Roles del Programa -->
+        <div class="column">
+            <h2>Roles del Programa</h2>
+            <ul>
+                <li>Camper</li>
+                <li>Trainer</li>
+                <li>Coordinador</li>
+            </ul>
+        </div>
+
+        <!-- Áreas de Entrenamiento -->
+        <div class="column">
+            <h2>Áreas de Entrenamiento</h2>
+            <ul>
+                <li>Capacidad máxima: 33 campers</li>
+                <li>Duración de clases: Cada 4 horas</li>
+                <li>Stacks tecnológicos según ruta</li>
+            </ul>
+        </div>
+
+        <!-- Nuevas Rutas -->
+        <div class="column">
+            <h2>Nuevas Rutas de Entrenamiento</h2>
+            <ul>
+                <li>Fundamentos de programación (Introducción a la algoritmia, PSeInt y Python)</li>
+                <li>Programación Web (HTML, CSS y Bootstrap)</li>
+                <li>Programación formal (Java, JavaScript, C#)</li>
+                <li>Bases de datos (MySQL, MongoDB y PostgreSQL)</li>
+                <li>Backend (NetCore, Spring Boot, NodeJS y Express)</li>
+            </ul>
+        </div>
+
+        <!-- Asignación de Campers y Trainers -->
+        <div class="column">
+            <h2>Asignación de Campers y Trainers</h2>
+            <ul>
+                <li>Estado del camper: "Inscrito" a "Aprobado"</li>
+                <li>No exceder la capacidad de áreas de entrenamiento</li>
+                <li>Asignación según horario</li>
+                <li>Información: Trainer, ruta asignada, fecha de inicio y finalización, salón</li>
+            </ul>
+        </div>
+
+        <!-- Evaluación de Módulos -->
+        <div class="column">
+            <h2>Evaluación de Módulos</h2>
+            <ul>
+                <li>Prueba teórica (30%)</li>
+                <li>Prueba práctica (60%)</li>
+                <li>Quices y trabajos (10%)</li>
+                <li>Nota final mayor a 60 para aprobar</li>
+            </ul>
+        </div>
+
+        <!-- Módulo de Reportes -->
+        <div class="column">
+            <h2>Módulo de Reportes</h2>
+            <ul>
+                <li>Listar campers en estado de "Inscrito"</li>
+                <li>Listar campers aprobados en el examen inicial</li>
+                <li>Listar entrenadores activos</li>
+                <li>Listar campers con bajo rendimiento</li>
+                <li>Listar campers y trainers asociados a rutas</li>
+                <li>Mostrar resultados de módulos por ruta y entrenador</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

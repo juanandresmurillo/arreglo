@@ -1,0 +1,64 @@
+{
+    "campers": [
+        {
+            "id": "001",
+            "nombre": "ss",
+            "edad": 20,
+            "email": "sss",
+            "telefono": "1222",
+            "ruta_asignada": "node",
+            "salon": "apolo",
+            "aprobado": true,
+            "nota": "Reprobado"
+        },
+        {
+            "id": "002",
+            "nombre": "jerson",
+            "edad": 20,
+            "email": "jj",
+            "telefono": "22",
+            "ruta_asignada": "nodejs",
+            "salon": "apolo",
+            "aprobado": true
+        },
+        {
+            "id": "00",
+            "nombre": "es",
+            "edad": 20,
+            "email": "ss",
+            "telefono": "22",
+            "ruta_asignada": "node",
+            "salon": "apolo",
+            "aprobado": true,
+            "nota": "100"
+        },
+        {
+            "id": "003",
+            "nombre": "es",
+            "edad": 2,
+            "email": "dd",
+            "telefono": "2",
+            "ruta_asignada": "node",
+            "salon": "apolo",
+            "aprobado": false
+        }
+    ],
+    "usuarios": {
+        "usuario1": {
+            "contrasena": "hashed_password"
+        },
+        "je": {
+            "contrasena": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        "camper": {
+            "contrasena": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        "es": {
+            "contrasena": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        }
+    },
+    "rutas": [
+        { "id": "1", "nombre": "Ruta A" },
+        { "id": "2", "nombre": "Ruta B" }
+    ]
+}
